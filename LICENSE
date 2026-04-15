@@ -1,0 +1,32 @@
+DGM4-Complex — license terms
+============================
+
+Code (everything under scripts/ and any other *.py files in this
+repository) is released under the Apache License 2.0 — see
+https://www.apache.org/licenses/LICENSE-2.0 .
+
+Dataset contents (everything under samples/, assets/, and the full
+dataset bundles referenced in docs/full_dataset_access.md) are
+released for **non-commercial research use only**, inheriting the
+terms of the upstream datasets:
+
+  - DGM4 / MultiModal-DeepFake
+    https://github.com/rshaojimmy/MultiModal-DeepFake
+  - Visual News
+    https://github.com/FuxiaoLiu/VisualNews-Repository
+
+By downloading, copying, installing, or using any portion of the
+DGM4-Complex dataset, you agree:
+
+  1. to use the dataset for non-commercial research purposes only;
+  2. to cite the GraDual paper and the original DGM4 paper in any
+     resulting publication or artifact;
+  3. not to redistribute the base DGM4 images (we do not redistribute
+     them either — obtain them from the original DGM4 release);
+  4. to respect the Visual News license when using origin images
+     or article texts;
+  5. to make reasonable efforts to protect the privacy of any
+     individuals whose likenesses appear in the dataset.
+
+If you are unsure whether your intended use is permitted, please
+contact the authors before proceeding.

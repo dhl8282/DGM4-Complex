@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# never commit the full dataset — hosted externally
+metadata/advanced_*.json
+metadata/*_AM.json
+metadata/*_v3.json
+metadata/*_pure.json
+metadata/*_any.json
+metadata/*_CTRL.json
+*.tar
+*.tar.gz
+*.zip

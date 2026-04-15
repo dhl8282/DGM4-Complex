@@ -1,0 +1,2151 @@
+[
+  {
+    "id": 1102361,
+    "fake_cls": "face_attribute&TAM",
+    "text": "Australian directors Martin Butler and Bentley Dean pose during a photocall for their film Tanna at the 72nd annual Venice film festival, including four people",
+    "origin_text": "Australian directors Martin Butler and Bentley Dean pose during a photocall for their film Tanna at the 72nd annual Venice film festival",
+    "topic": "film",
+    "fake_image_box": [
+      219,
+      50,
+      284,
+      131
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        219,
+        50,
+        284,
+        131
+      ],
+      [
+        95,
+        32,
+        157,
+        116
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "text_aug_cls": "TAM",
+    "_split": "val",
+    "_curated_tag": "paper_figure1",
+    "image": "manipulation/StyleCLIP/1102361-StyleCLIP.jpg",
+    "origin_image": "origin/guardian/0709/891.jpg",
+    "binary_mask": "manipulation/StyleCLIP-mask/1102361-StyleCLIP-mask.jpg"
+  },
+  {
+    "id": 1102361,
+    "fake_cls": "TAM",
+    "text": "Australian directors Martin Butler and Bentley Dean pose during a photocall for their film Tanna at the 72nd annual Venice film festival, including four people",
+    "origin_text": "Australian directors Martin Butler and Bentley Dean pose during a photocall for their film Tanna at the 72nd annual Venice film festival",
+    "topic": "film",
+    "fake_image_box": [],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        219,
+        50,
+        284,
+        131
+      ],
+      [
+        95,
+        32,
+        157,
+        116
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "text_aug_cls": "TAM",
+    "_split": "val",
+    "_curated_tag": "paper_figure1",
+    "image": "origin/guardian/0709/891.jpg",
+    "origin_image": "origin/guardian/0709/891.jpg"
+  },
+  {
+    "id": 1102361,
+    "fake_cls": "face_swap&TAM",
+    "text": "Australian directors Martin Butler and Bentley Dean pose during a photocall for their film Tanna at the 72nd annual Venice film festival, including four people",
+    "origin_text": "Australian directors Martin Butler and Bentley Dean pose during a photocall for their film Tanna at the 72nd annual Venice film festival",
+    "topic": "film",
+    "fake_image_box": [
+      219,
+      50,
+      284,
+      131
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        219,
+        50,
+        284,
+        131
+      ],
+      [
+        95,
+        32,
+        157,
+        116
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "text_aug_cls": "TAM",
+    "_split": "val",
+    "_curated_tag": "paper_figure1",
+    "image": "manipulation/simswap/1102361-074399-simswap.jpg",
+    "origin_image": "origin/guardian/0709/891.jpg",
+    "binary_mask": "manipulation/simswap-mask/1102361-074399-simswap-mask.jpg"
+  },
+  {
+    "id": 1102361,
+    "fake_cls": "FAM&face_swap&TAM",
+    "text": "Australian directors Martin Butler and Bentley Dean pose during a photocall for their film Tanna at the 72nd annual Venice film festival, including four people",
+    "origin_text": "Australian directors Martin Butler and Bentley Dean pose during a photocall for their film Tanna at the 72nd annual Venice film festival",
+    "topic": "film",
+    "fake_image_box": [
+      219,
+      50,
+      284,
+      131
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        219,
+        50,
+        284,
+        131
+      ],
+      [
+        95,
+        32,
+        157,
+        116
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      95,
+      32,
+      157,
+      116
+    ],
+    "text_aug_cls": "TAM",
+    "_split": "val",
+    "_curated_tag": "paper_figure1",
+    "image": "manipulation/FaceAdapter/simswap/1102361-074399-simswap.jpg",
+    "origin_image": "origin/guardian/0709/891.jpg",
+    "binary_mask": "manipulation/simswap-mask/1102361-074399-simswap-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/simswap-mask/1102361-074399-simswap-AM-mask.jpg"
+  },
+  {
+    "id": 1102361,
+    "fake_cls": "FAM&face_attribute&TAM",
+    "text": "Australian directors Martin Butler and Bentley Dean pose during a photocall for their film Tanna at the 72nd annual Venice film festival, including four people",
+    "origin_text": "Australian directors Martin Butler and Bentley Dean pose during a photocall for their film Tanna at the 72nd annual Venice film festival",
+    "topic": "film",
+    "fake_image_box": [
+      219,
+      50,
+      284,
+      131
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        219,
+        50,
+        284,
+        131
+      ],
+      [
+        95,
+        32,
+        157,
+        116
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      95,
+      32,
+      157,
+      116
+    ],
+    "text_aug_cls": "TAM",
+    "_split": "val",
+    "_curated_tag": "paper_figure1",
+    "image": "manipulation/FaceAdapter/StyleCLIP/1102361-StyleCLIP.jpg",
+    "origin_image": "origin/guardian/0709/891.jpg",
+    "binary_mask": "manipulation/StyleCLIP-mask/1102361-StyleCLIP-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/StyleCLIP-mask/1102361-StyleCLIP-AM-mask.jpg"
+  },
+  {
+    "id": 1150521,
+    "fake_cls": "face_attribute&text_swap&TAM",
+    "text": "And either Glenn Hoddle is recreating his pose on the cover of Glenn and Chris s 1987 single Diamond Lights or the embarrassment of it has finally hit him, among three attendees",
+    "origin_text": "Glenn and Anita Whitehead from Swanley Kent The couple heard bullets close to their head as they fled",
+    "topic": "world",
+    "fake_image_box": [
+      260,
+      44,
+      300,
+      94
+    ],
+    "fake_text_pos": [
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      21,
+      22,
+      25,
+      26,
+      27
+    ],
+    "mtcnn_boxes": [
+      [
+        129,
+        39,
+        175,
+        103
+      ],
+      [
+        260,
+        44,
+        300,
+        94
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "text_aug_cls": "TAM",
+    "_split": "val",
+    "_curated_tag": "progression_full",
+    "image": "manipulation/HFGI/1150521-HFGI.jpg",
+    "origin_image": "origin/guardian/0765/774.jpg",
+    "binary_mask": "manipulation/HFGI-mask/1150521-HFGI-mask.jpg"
+  },
+  {
+    "id": 1150521,
+    "fake_cls": "face_swap",
+    "text": "Glenn and Anita Whitehead from Swanley Kent The couple heard bullets close to their head as they fled",
+    "origin_text": "Glenn and Anita Whitehead from Swanley Kent The couple heard bullets close to their head as they fled",
+    "topic": "world",
+    "fake_image_box": [
+      260,
+      44,
+      300,
+      94
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        129,
+        39,
+        175,
+        103
+      ],
+      [
+        260,
+        44,
+        300,
+        94
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "val",
+    "_curated_tag": "progression_full",
+    "image": "manipulation/infoswap/1150521-024337-infoswap.jpg",
+    "origin_image": "origin/guardian/0765/774.jpg",
+    "binary_mask": "manipulation/infoswap-mask/1150521-024337-infoswap-mask.jpg"
+  },
+  {
+    "id": 1150521,
+    "fake_cls": "text_attribute",
+    "text": "Glenn and Anita Whitehead from Swanley Kent The couple to celebrate their head as they celebrate",
+    "origin_text": "Glenn and Anita Whitehead from Swanley Kent The couple heard bullets close to their head as they fled",
+    "topic": "world",
+    "fake_image_box": [],
+    "fake_text_pos": [
+      10,
+      15
+    ],
+    "mtcnn_boxes": [
+      [
+        129,
+        39,
+        175,
+        103
+      ],
+      [
+        260,
+        44,
+        300,
+        94
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "val",
+    "_curated_tag": "progression_full",
+    "image": "origin/guardian/0765/774.jpg",
+    "origin_image": "origin/guardian/0765/774.jpg"
+  },
+  {
+    "id": 1150521,
+    "fake_cls": "orig",
+    "text": "Glenn and Anita Whitehead from Swanley Kent The couple heard bullets close to their head as they fled",
+    "origin_text": "Glenn and Anita Whitehead from Swanley Kent The couple heard bullets close to their head as they fled",
+    "topic": "world",
+    "fake_image_box": [],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        129,
+        39,
+        175,
+        103
+      ],
+      [
+        260,
+        44,
+        300,
+        94
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "val",
+    "_curated_tag": "progression_full",
+    "image": "origin/guardian/0765/774.jpg",
+    "origin_image": "origin/guardian/0765/774.jpg"
+  },
+  {
+    "id": 1150521,
+    "fake_cls": "FAM&face_attribute&text_swap&TAM",
+    "text": "And either Glenn Hoddle is recreating his pose on the cover of Glenn and Chris s 1987 single Diamond Lights or the embarrassment of it has finally hit him, among three attendees",
+    "origin_text": "Glenn and Anita Whitehead from Swanley Kent The couple heard bullets close to their head as they fled",
+    "topic": "world",
+    "fake_image_box": [
+      260,
+      44,
+      300,
+      94
+    ],
+    "fake_text_pos": [
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      21,
+      22,
+      25,
+      26,
+      27
+    ],
+    "mtcnn_boxes": [
+      [
+        129,
+        39,
+        175,
+        103
+      ],
+      [
+        260,
+        44,
+        300,
+        94
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      129,
+      39,
+      175,
+      103
+    ],
+    "text_aug_cls": "TAM",
+    "_split": "val",
+    "_curated_tag": "progression_full",
+    "image": "manipulation/FaceAdapter/HFGI/1150521-HFGI.jpg",
+    "origin_image": "origin/guardian/0765/774.jpg",
+    "binary_mask": "manipulation/HFGI-mask/1150521-HFGI-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/HFGI-mask/1150521-HFGI-AM-mask.jpg"
+  },
+  {
+    "id": 1150521,
+    "fake_cls": "FAM&face_swap&NT",
+    "text": "Glenn and Anita Whitehead from Swanley Kent The couple heard bullets close to their head as they fled, with no further information available",
+    "origin_text": "Glenn and Anita Whitehead from Swanley Kent The couple heard bullets close to their head as they fled",
+    "topic": "world",
+    "fake_image_box": [
+      260,
+      44,
+      300,
+      94
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        129,
+        39,
+        175,
+        103
+      ],
+      [
+        260,
+        44,
+        300,
+        94
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      129,
+      39,
+      175,
+      103
+    ],
+    "text_aug_cls": "NT",
+    "_split": "val",
+    "_curated_tag": "progression_full",
+    "image": "manipulation/FaceAdapter/infoswap/1150521-024337-infoswap.jpg",
+    "origin_image": "origin/guardian/0765/774.jpg",
+    "binary_mask": "manipulation/infoswap-mask/1150521-024337-infoswap-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/infoswap-mask/1150521-024337-infoswap-AM-mask.jpg"
+  },
+  {
+    "id": 151419,
+    "fake_cls": "face_swap",
+    "text": "Reese Witherspoon left and Sofia Vergara at the premiere of Hot Pursuit in Los Angeles",
+    "origin_text": "Reese Witherspoon left and Sofia Vergara at the premiere of Hot Pursuit in Los Angeles",
+    "topic": "arts_culture",
+    "fake_image_box": [
+      1632,
+      221,
+      2176,
+      889
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        1041,
+        457,
+        1569,
+        1163
+      ],
+      [
+        1632,
+        221,
+        2176,
+        889
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "val",
+    "_curated_tag": "progression_cand_1",
+    "image": "manipulation/simswap/151419-130992-simswap.jpg",
+    "origin_image": "origin/washington_post/0598/244.jpg",
+    "binary_mask": "manipulation/simswap-mask/151419-130992-simswap-mask.jpg"
+  },
+  {
+    "id": 151419,
+    "fake_cls": "orig",
+    "text": "Reese Witherspoon left and Sofia Vergara at the premiere of Hot Pursuit in Los Angeles",
+    "origin_text": "Reese Witherspoon left and Sofia Vergara at the premiere of Hot Pursuit in Los Angeles",
+    "topic": "arts_culture",
+    "fake_image_box": [],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        1041,
+        457,
+        1569,
+        1163
+      ],
+      [
+        1632,
+        221,
+        2176,
+        889
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "val",
+    "_curated_tag": "progression_cand_1",
+    "image": "origin/washington_post/0598/244.jpg",
+    "origin_image": "origin/washington_post/0598/244.jpg"
+  },
+  {
+    "id": 151419,
+    "fake_cls": "face_attribute&text_swap",
+    "text": "An early reader for Harper Lee s Go Set a Watchman the Oscarwinning actor Reese Witherspoon and the novelist Harper Lee Photographs Mario Anzuoni Reuters and Chip Somodevilla Getty Images",
+    "origin_text": "Reese Witherspoon left and Sofia Vergara at the premiere of Hot Pursuit in Los Angeles",
+    "topic": "arts_culture",
+    "fake_image_box": [
+      1041,
+      457,
+      1569,
+      1163
+    ],
+    "fake_text_pos": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29
+    ],
+    "mtcnn_boxes": [
+      [
+        1041,
+        457,
+        1569,
+        1163
+      ],
+      [
+        1632,
+        221,
+        2176,
+        889
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "val",
+    "_curated_tag": "progression_cand_1",
+    "image": "manipulation/StyleCLIP/151419-StyleCLIP.jpg",
+    "origin_image": "origin/washington_post/0598/244.jpg",
+    "binary_mask": "manipulation/StyleCLIP-mask/151419-StyleCLIP-mask.jpg"
+  },
+  {
+    "id": 151419,
+    "fake_cls": "FAM&face_swap&NT",
+    "text": "Reese Witherspoon left and Sofia Vergara at the premiere of Hot Pursuit in Los Angeles, with background details undisclosed",
+    "origin_text": "Reese Witherspoon left and Sofia Vergara at the premiere of Hot Pursuit in Los Angeles",
+    "topic": "arts_culture",
+    "fake_image_box": [
+      1632,
+      221,
+      2176,
+      889
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        1041,
+        457,
+        1569,
+        1163
+      ],
+      [
+        1632,
+        221,
+        2176,
+        889
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      1041,
+      457,
+      1569,
+      1163
+    ],
+    "text_aug_cls": "NT",
+    "_split": "val",
+    "_curated_tag": "progression_cand_1",
+    "image": "manipulation/FaceAdapter/simswap/151419-130992-simswap.jpg",
+    "origin_image": "origin/washington_post/0598/244.jpg",
+    "binary_mask": "manipulation/simswap-mask/151419-130992-simswap-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/simswap-mask/151419-130992-simswap-AM-mask.jpg"
+  },
+  {
+    "id": 151419,
+    "fake_cls": "FAM&face_attribute&text_swap",
+    "text": "An early reader for Harper Lee s Go Set a Watchman the Oscarwinning actor Reese Witherspoon and the novelist Harper Lee Photographs Mario Anzuoni Reuters and Chip Somodevilla Getty Images",
+    "origin_text": "Reese Witherspoon left and Sofia Vergara at the premiere of Hot Pursuit in Los Angeles",
+    "topic": "arts_culture",
+    "fake_image_box": [
+      1041,
+      457,
+      1569,
+      1163
+    ],
+    "fake_text_pos": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29
+    ],
+    "mtcnn_boxes": [
+      [
+        1041,
+        457,
+        1569,
+        1163
+      ],
+      [
+        1632,
+        221,
+        2176,
+        889
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      1632,
+      221,
+      2176,
+      889
+    ],
+    "_split": "val",
+    "_curated_tag": "progression_cand_1",
+    "image": "manipulation/FaceAdapter/StyleCLIP/151419-StyleCLIP.jpg",
+    "origin_image": "origin/washington_post/0598/244.jpg",
+    "binary_mask": "manipulation/StyleCLIP-mask/151419-StyleCLIP-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/StyleCLIP-mask/151419-StyleCLIP-AM-mask.jpg"
+  },
+  {
+    "id": 1538785,
+    "fake_cls": "orig",
+    "text": "David Ellis appeared at Swansea Crown Court accused of murdering Alec Warburton",
+    "origin_text": "David Ellis appeared at Swansea Crown Court accused of murdering Alec Warburton",
+    "topic": "law_crime",
+    "fake_image_box": [],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        509,
+        14,
+        899,
+        516
+      ],
+      [
+        78,
+        55,
+        413,
+        539
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "val",
+    "_curated_tag": "progression_cand_2",
+    "image": "origin/bbc/0261/024.jpg",
+    "origin_image": "origin/bbc/0261/024.jpg"
+  },
+  {
+    "id": 1538785,
+    "fake_cls": "face_attribute",
+    "text": "David Ellis appeared at Swansea Crown Court accused of murdering Alec Warburton",
+    "origin_text": "David Ellis appeared at Swansea Crown Court accused of murdering Alec Warburton",
+    "topic": "law_crime",
+    "fake_image_box": [
+      78,
+      55,
+      413,
+      539
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        509,
+        14,
+        899,
+        516
+      ],
+      [
+        78,
+        55,
+        413,
+        539
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "val",
+    "_curated_tag": "progression_cand_2",
+    "image": "manipulation/StyleCLIP/1538785-StyleCLIP.jpg",
+    "origin_image": "origin/bbc/0261/024.jpg",
+    "binary_mask": "manipulation/StyleCLIP-mask/1538785-StyleCLIP-mask.jpg"
+  },
+  {
+    "id": 1538785,
+    "fake_cls": "face_swap&NT",
+    "text": "David Ellis appeared at Swansea Crown Court accused of murdering Alec Warburton, with updates pending",
+    "origin_text": "David Ellis appeared at Swansea Crown Court accused of murdering Alec Warburton",
+    "topic": "law_crime",
+    "fake_image_box": [
+      509,
+      14,
+      899,
+      516
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        509,
+        14,
+        899,
+        516
+      ],
+      [
+        78,
+        55,
+        413,
+        539
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "text_aug_cls": "NT",
+    "_split": "val",
+    "_curated_tag": "progression_cand_2",
+    "image": "manipulation/simswap/1538785-159425-simswap.jpg",
+    "origin_image": "origin/bbc/0261/024.jpg",
+    "binary_mask": "manipulation/simswap-mask/1538785-159425-simswap-mask.jpg"
+  },
+  {
+    "id": 1538785,
+    "fake_cls": "FAM&face_swap",
+    "text": "David Ellis appeared at Swansea Crown Court accused of murdering Alec Warburton",
+    "origin_text": "David Ellis appeared at Swansea Crown Court accused of murdering Alec Warburton",
+    "topic": "law_crime",
+    "fake_image_box": [
+      509,
+      14,
+      899,
+      516
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        509,
+        14,
+        899,
+        516
+      ],
+      [
+        78,
+        55,
+        413,
+        539
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      78,
+      55,
+      413,
+      539
+    ],
+    "_split": "val",
+    "_curated_tag": "progression_cand_2",
+    "image": "manipulation/FaceAdapter/simswap/1538785-159425-simswap.jpg",
+    "origin_image": "origin/bbc/0261/024.jpg",
+    "binary_mask": "manipulation/simswap-mask/1538785-159425-simswap-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/simswap-mask/1538785-159425-simswap-AM-mask.jpg"
+  },
+  {
+    "id": 1538785,
+    "fake_cls": "FAM&face_attribute&NT",
+    "text": "David Ellis appeared at Swansea Crown Court accused of murdering Alec Warburton, with updates pending",
+    "origin_text": "David Ellis appeared at Swansea Crown Court accused of murdering Alec Warburton",
+    "topic": "law_crime",
+    "fake_image_box": [
+      78,
+      55,
+      413,
+      539
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        509,
+        14,
+        899,
+        516
+      ],
+      [
+        78,
+        55,
+        413,
+        539
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      509,
+      14,
+      899,
+      516
+    ],
+    "text_aug_cls": "NT",
+    "_split": "val",
+    "_curated_tag": "progression_cand_2",
+    "image": "manipulation/FaceAdapter/StyleCLIP/1538785-StyleCLIP.jpg",
+    "origin_image": "origin/bbc/0261/024.jpg",
+    "binary_mask": "manipulation/StyleCLIP-mask/1538785-StyleCLIP-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/StyleCLIP-mask/1538785-StyleCLIP-AM-mask.jpg"
+  },
+  {
+    "id": 1490349,
+    "fake_cls": "face_attribute&NT",
+    "text": "The efit issued by Cheshire Police inspired mockups like that of Ian Harrison who posted his picture on Facebook, with updates pending",
+    "origin_text": "The efit issued by Cheshire Police inspired mockups like that of Ian Harrison who posted his picture on Facebook",
+    "topic": "law_crime",
+    "fake_image_box": [
+      72,
+      79,
+      383,
+      490
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        72,
+        79,
+        383,
+        490
+      ],
+      [
+        597,
+        27,
+        897,
+        431
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "text_aug_cls": "NT",
+    "_split": "val",
+    "_curated_tag": "progression_cand_3",
+    "image": "manipulation/StyleCLIP/1490349-StyleCLIP.jpg",
+    "origin_image": "origin/bbc/0130/248.jpg",
+    "binary_mask": "manipulation/StyleCLIP-mask/1490349-StyleCLIP-mask.jpg"
+  },
+  {
+    "id": 1490349,
+    "fake_cls": "orig",
+    "text": "The efit issued by Cheshire Police inspired mockups like that of Ian Harrison who posted his picture on Facebook",
+    "origin_text": "The efit issued by Cheshire Police inspired mockups like that of Ian Harrison who posted his picture on Facebook",
+    "topic": "law_crime",
+    "fake_image_box": [],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        72,
+        79,
+        383,
+        490
+      ],
+      [
+        597,
+        27,
+        897,
+        431
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "val",
+    "_curated_tag": "progression_cand_3",
+    "image": "origin/bbc/0130/248.jpg",
+    "origin_image": "origin/bbc/0130/248.jpg"
+  },
+  {
+    "id": 1490349,
+    "fake_cls": "face_swap",
+    "text": "The efit issued by Cheshire Police inspired mockups like that of Ian Harrison who posted his picture on Facebook",
+    "origin_text": "The efit issued by Cheshire Police inspired mockups like that of Ian Harrison who posted his picture on Facebook",
+    "topic": "law_crime",
+    "fake_image_box": [
+      72,
+      79,
+      383,
+      490
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        72,
+        79,
+        383,
+        490
+      ],
+      [
+        597,
+        27,
+        897,
+        431
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "val",
+    "_curated_tag": "progression_cand_3",
+    "image": "manipulation/infoswap/1490349-024737-infoswap.jpg",
+    "origin_image": "origin/bbc/0130/248.jpg",
+    "binary_mask": "manipulation/infoswap-mask/1490349-024737-infoswap-mask.jpg"
+  },
+  {
+    "id": 1490349,
+    "fake_cls": "FAM&face_swap&NT",
+    "text": "The efit issued by Cheshire Police inspired mockups like that of Ian Harrison who posted his picture on Facebook, with updates pending",
+    "origin_text": "The efit issued by Cheshire Police inspired mockups like that of Ian Harrison who posted his picture on Facebook",
+    "topic": "law_crime",
+    "fake_image_box": [
+      72,
+      79,
+      383,
+      490
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        72,
+        79,
+        383,
+        490
+      ],
+      [
+        597,
+        27,
+        897,
+        431
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      597,
+      27,
+      897,
+      431
+    ],
+    "text_aug_cls": "NT",
+    "_split": "val",
+    "_curated_tag": "progression_cand_3",
+    "image": "manipulation/FaceAdapter/infoswap/1490349-024737-infoswap.jpg",
+    "origin_image": "origin/bbc/0130/248.jpg",
+    "binary_mask": "manipulation/infoswap-mask/1490349-024737-infoswap-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/infoswap-mask/1490349-024737-infoswap-AM-mask.jpg"
+  },
+  {
+    "id": 1490349,
+    "fake_cls": "FAM&face_attribute",
+    "text": "The efit issued by Cheshire Police inspired mockups like that of Ian Harrison who posted his picture on Facebook",
+    "origin_text": "The efit issued by Cheshire Police inspired mockups like that of Ian Harrison who posted his picture on Facebook",
+    "topic": "law_crime",
+    "fake_image_box": [
+      72,
+      79,
+      383,
+      490
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        72,
+        79,
+        383,
+        490
+      ],
+      [
+        597,
+        27,
+        897,
+        431
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      597,
+      27,
+      897,
+      431
+    ],
+    "_split": "val",
+    "_curated_tag": "progression_cand_3",
+    "image": "manipulation/FaceAdapter/StyleCLIP/1490349-StyleCLIP.jpg",
+    "origin_image": "origin/bbc/0130/248.jpg",
+    "binary_mask": "manipulation/StyleCLIP-mask/1490349-StyleCLIP-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/StyleCLIP-mask/1490349-StyleCLIP-AM-mask.jpg"
+  },
+  {
+    "id": 1672250,
+    "fake_cls": "face_swap&NT",
+    "text": "Karl Demetrius and his girlfriend Jaydene Parsons admitted assisting an offender, with no further information available",
+    "origin_text": "Karl Demetrius and his girlfriend Jaydene Parsons admitted assisting an offender",
+    "topic": "law_crime",
+    "fake_image_box": [
+      599,
+      63,
+      860,
+      413
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        94,
+        42,
+        362,
+        425
+      ],
+      [
+        599,
+        63,
+        860,
+        413
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "text_aug_cls": "NT",
+    "_split": "val",
+    "_curated_tag": "progression_cand_4",
+    "image": "manipulation/infoswap/1672250-178524-infoswap.jpg",
+    "origin_image": "origin/bbc/0432/945.jpg",
+    "binary_mask": "manipulation/infoswap-mask/1672250-178524-infoswap-mask.jpg"
+  },
+  {
+    "id": 1672250,
+    "fake_cls": "orig",
+    "text": "Karl Demetrius and his girlfriend Jaydene Parsons admitted assisting an offender",
+    "origin_text": "Karl Demetrius and his girlfriend Jaydene Parsons admitted assisting an offender",
+    "topic": "law_crime",
+    "fake_image_box": [],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        94,
+        42,
+        362,
+        425
+      ],
+      [
+        599,
+        63,
+        860,
+        413
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "val",
+    "_curated_tag": "progression_cand_4",
+    "image": "origin/bbc/0432/945.jpg",
+    "origin_image": "origin/bbc/0432/945.jpg"
+  },
+  {
+    "id": 1672250,
+    "fake_cls": "face_attribute&text_attribute",
+    "text": "Karl Demetrius and his girlfriend Jaydene Parsons celebrate an award",
+    "origin_text": "Karl Demetrius and his girlfriend Jaydene Parsons admitted assisting an offender",
+    "topic": "law_crime",
+    "fake_image_box": [
+      94,
+      42,
+      362,
+      425
+    ],
+    "fake_text_pos": [
+      7,
+      9
+    ],
+    "mtcnn_boxes": [
+      [
+        94,
+        42,
+        362,
+        425
+      ],
+      [
+        599,
+        63,
+        860,
+        413
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "val",
+    "_curated_tag": "progression_cand_4",
+    "image": "manipulation/StyleCLIP/1672250-StyleCLIP.jpg",
+    "origin_image": "origin/bbc/0432/945.jpg",
+    "binary_mask": "manipulation/StyleCLIP-mask/1672250-StyleCLIP-mask.jpg"
+  },
+  {
+    "id": 1672250,
+    "fake_cls": "FAM&face_swap&NT",
+    "text": "Karl Demetrius and his girlfriend Jaydene Parsons admitted assisting an offender, with no further information available",
+    "origin_text": "Karl Demetrius and his girlfriend Jaydene Parsons admitted assisting an offender",
+    "topic": "law_crime",
+    "fake_image_box": [
+      599,
+      63,
+      860,
+      413
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        94,
+        42,
+        362,
+        425
+      ],
+      [
+        599,
+        63,
+        860,
+        413
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      94,
+      42,
+      362,
+      425
+    ],
+    "text_aug_cls": "NT",
+    "_split": "val",
+    "_curated_tag": "progression_cand_4",
+    "image": "manipulation/FaceAdapter/infoswap/1672250-178524-infoswap.jpg",
+    "origin_image": "origin/bbc/0432/945.jpg",
+    "binary_mask": "manipulation/infoswap-mask/1672250-178524-infoswap-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/infoswap-mask/1672250-178524-infoswap-AM-mask.jpg"
+  },
+  {
+    "id": 1672250,
+    "fake_cls": "FAM&face_attribute&text_attribute",
+    "text": "Karl Demetrius and his girlfriend Jaydene Parsons celebrate an award",
+    "origin_text": "Karl Demetrius and his girlfriend Jaydene Parsons admitted assisting an offender",
+    "topic": "law_crime",
+    "fake_image_box": [
+      94,
+      42,
+      362,
+      425
+    ],
+    "fake_text_pos": [
+      7,
+      9
+    ],
+    "mtcnn_boxes": [
+      [
+        94,
+        42,
+        362,
+        425
+      ],
+      [
+        599,
+        63,
+        860,
+        413
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      599,
+      63,
+      860,
+      413
+    ],
+    "_split": "val",
+    "_curated_tag": "progression_cand_4",
+    "image": "manipulation/FaceAdapter/StyleCLIP/1672250-StyleCLIP.jpg",
+    "origin_image": "origin/bbc/0432/945.jpg",
+    "binary_mask": "manipulation/StyleCLIP-mask/1672250-StyleCLIP-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/StyleCLIP-mask/1672250-StyleCLIP-AM-mask.jpg"
+  },
+  {
+    "id": 1642490,
+    "fake_cls": "face_swap",
+    "text": "Prime Minister Najib Razak chairs 1MDB s advisory board and his leadership has been questioned because of his alleged dealings with the firm",
+    "origin_text": "Prime Minister Najib Razak chairs 1MDB s advisory board and his leadership has been questioned because of his alleged dealings with the firm",
+    "topic": "business_economy",
+    "fake_image_box": [
+      194,
+      54,
+      426,
+      338
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        194,
+        54,
+        426,
+        338
+      ],
+      [
+        708,
+        349,
+        924,
+        549
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "val",
+    "_curated_tag": "progression_cand_5",
+    "image": "manipulation/infoswap/1642490-086614-infoswap.jpg",
+    "origin_image": "origin/bbc/0441/549.jpg",
+    "binary_mask": "manipulation/infoswap-mask/1642490-086614-infoswap-mask.jpg"
+  },
+  {
+    "id": 1642490,
+    "fake_cls": "text_attribute",
+    "text": "Prime Minister Najib Razak chairs 1MDB s advisory board and his leadership has been praised because of his dealings with the firm",
+    "origin_text": "Prime Minister Najib Razak chairs 1MDB s advisory board and his leadership has been questioned because of his alleged dealings with the firm",
+    "topic": "business_economy",
+    "fake_image_box": [],
+    "fake_text_pos": [
+      14
+    ],
+    "mtcnn_boxes": [
+      [
+        194,
+        54,
+        426,
+        338
+      ],
+      [
+        708,
+        349,
+        924,
+        549
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "val",
+    "_curated_tag": "progression_cand_5",
+    "image": "origin/bbc/0441/549.jpg",
+    "origin_image": "origin/bbc/0441/549.jpg"
+  },
+  {
+    "id": 1642490,
+    "fake_cls": "orig",
+    "text": "Prime Minister Najib Razak chairs 1MDB s advisory board and his leadership has been questioned because of his alleged dealings with the firm",
+    "origin_text": "Prime Minister Najib Razak chairs 1MDB s advisory board and his leadership has been questioned because of his alleged dealings with the firm",
+    "topic": "business_economy",
+    "fake_image_box": [],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        194,
+        54,
+        426,
+        338
+      ],
+      [
+        708,
+        349,
+        924,
+        549
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "val",
+    "_curated_tag": "progression_cand_5",
+    "image": "origin/bbc/0441/549.jpg",
+    "origin_image": "origin/bbc/0441/549.jpg"
+  },
+  {
+    "id": 1642490,
+    "fake_cls": "face_attribute&text_swap",
+    "text": "US secretary of state John Kerry pictured with Malaysian prime minister Najib Razak told reporters on his visit that the country was making strides to tackle modernday slavery",
+    "origin_text": "Prime Minister Najib Razak chairs 1MDB s advisory board and his leadership has been questioned because of his alleged dealings with the firm",
+    "topic": "business_economy",
+    "fake_image_box": [
+      194,
+      54,
+      426,
+      338
+    ],
+    "fake_text_pos": [
+      3,
+      4,
+      5,
+      6,
+      13,
+      14,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "mtcnn_boxes": [
+      [
+        194,
+        54,
+        426,
+        338
+      ],
+      [
+        708,
+        349,
+        924,
+        549
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "val",
+    "_curated_tag": "progression_cand_5",
+    "image": "manipulation/StyleCLIP/1642490-StyleCLIP.jpg",
+    "origin_image": "origin/bbc/0441/549.jpg",
+    "binary_mask": "manipulation/StyleCLIP-mask/1642490-StyleCLIP-mask.jpg"
+  },
+  {
+    "id": 1642490,
+    "fake_cls": "FAM&face_swap&NT",
+    "text": "Prime Minister Najib Razak chairs 1MDB s advisory board and his leadership has been questioned because of his alleged dealings with the firm, with no further information available",
+    "origin_text": "Prime Minister Najib Razak chairs 1MDB s advisory board and his leadership has been questioned because of his alleged dealings with the firm",
+    "topic": "business_economy",
+    "fake_image_box": [
+      194,
+      54,
+      426,
+      338
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        194,
+        54,
+        426,
+        338
+      ],
+      [
+        708,
+        349,
+        924,
+        549
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      708,
+      349,
+      924,
+      549
+    ],
+    "text_aug_cls": "NT",
+    "_split": "val",
+    "_curated_tag": "progression_cand_5",
+    "image": "manipulation/FaceAdapter/infoswap/1642490-086614-infoswap.jpg",
+    "origin_image": "origin/bbc/0441/549.jpg",
+    "binary_mask": "manipulation/infoswap-mask/1642490-086614-infoswap-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/infoswap-mask/1642490-086614-infoswap-AM-mask.jpg"
+  },
+  {
+    "id": 1642490,
+    "fake_cls": "FAM&face_attribute&text_swap",
+    "text": "US secretary of state John Kerry pictured with Malaysian prime minister Najib Razak told reporters on his visit that the country was making strides to tackle modernday slavery",
+    "origin_text": "Prime Minister Najib Razak chairs 1MDB s advisory board and his leadership has been questioned because of his alleged dealings with the firm",
+    "topic": "business_economy",
+    "fake_image_box": [
+      194,
+      54,
+      426,
+      338
+    ],
+    "fake_text_pos": [
+      3,
+      4,
+      5,
+      6,
+      13,
+      14,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "mtcnn_boxes": [
+      [
+        194,
+        54,
+        426,
+        338
+      ],
+      [
+        708,
+        349,
+        924,
+        549
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      708,
+      349,
+      924,
+      549
+    ],
+    "_split": "val",
+    "_curated_tag": "progression_cand_5",
+    "image": "manipulation/FaceAdapter/StyleCLIP/1642490-StyleCLIP.jpg",
+    "origin_image": "origin/bbc/0441/549.jpg",
+    "binary_mask": "manipulation/StyleCLIP-mask/1642490-StyleCLIP-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/StyleCLIP-mask/1642490-StyleCLIP-AM-mask.jpg"
+  },
+  {
+    "id": 192527,
+    "fake_cls": "face_attribute&text_swap",
+    "text": "Hillary Clinton beat Bernie Sanders by a narrow margin Ted Cruz had a bigger lead over Donald Trump",
+    "origin_text": "Bernie Sanders supporters protest outside City Hall in Philadelphia",
+    "topic": "politics_elections",
+    "fake_image_box": [
+      173,
+      164,
+      232,
+      246
+    ],
+    "fake_text_pos": [
+      0,
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17
+    ],
+    "mtcnn_boxes": [
+      [
+        173,
+        164,
+        232,
+        246
+      ],
+      [
+        52,
+        157,
+        72,
+        182
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "train",
+    "_curated_tag": "grid_FA_HFGI",
+    "image": "manipulation/HFGI/192527-HFGI.jpg",
+    "origin_image": "origin/washington_post/0591/212.jpg",
+    "binary_mask": "manipulation/HFGI-mask/192527-HFGI-mask.jpg"
+  },
+  {
+    "id": 1583762,
+    "fake_cls": "face_attribute&text_attribute",
+    "text": "The couple shared their grief at losing at a news conference in Nottinghamshire",
+    "origin_text": "The couple shared their joy at winning at a news conference in Nottinghamshire",
+    "topic": "arts_culture",
+    "fake_image_box": [
+      192,
+      30,
+      238,
+      92
+    ],
+    "fake_text_pos": [
+      4,
+      6
+    ],
+    "mtcnn_boxes": [
+      [
+        192,
+        30,
+        238,
+        92
+      ],
+      [
+        312,
+        55,
+        351,
+        108
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "train",
+    "_curated_tag": "grid_FA_HFGI",
+    "image": "manipulation/HFGI/1583762-HFGI.jpg",
+    "origin_image": "origin/bbc/0391/202.jpg",
+    "binary_mask": "manipulation/HFGI-mask/1583762-HFGI-mask.jpg"
+  },
+  {
+    "id": 369913,
+    "fake_cls": "face_attribute",
+    "text": "Tara Lipinsky during the Sochi Olympics Tara was a judge on So You Think You Can Dance last night",
+    "origin_text": "Tara Lipinsky during the Sochi Olympics Tara was a judge on So You Think You Can Dance last night",
+    "topic": "science_technology",
+    "fake_image_box": [
+      107,
+      58,
+      164,
+      137
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        107,
+        58,
+        164,
+        137
+      ],
+      [
+        50,
+        127,
+        95,
+        197
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "train",
+    "_curated_tag": "grid_FA_StyleCLIP",
+    "image": "manipulation/StyleCLIP/369913-StyleCLIP.jpg",
+    "origin_image": "origin/usa_today/0304/180.jpg",
+    "binary_mask": "manipulation/StyleCLIP-mask/369913-StyleCLIP-mask.jpg"
+  },
+  {
+    "id": 509797,
+    "fake_cls": "face_attribute&text_attribute",
+    "text": "Students enjoy the treatment of workers in Abu Dhabi",
+    "origin_text": "Students protest the treatment of workers in Abu Dhabi",
+    "topic": "us-news",
+    "fake_image_box": [
+      326,
+      14,
+      375,
+      79
+    ],
+    "fake_text_pos": [
+      1
+    ],
+    "mtcnn_boxes": [
+      [
+        326,
+        14,
+        375,
+        79
+      ],
+      [
+        246,
+        37,
+        286,
+        86
+      ],
+      [
+        71,
+        40,
+        108,
+        89
+      ],
+      [
+        166,
+        77,
+        198,
+        120
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "train",
+    "_curated_tag": "grid_FA_StyleCLIP",
+    "image": "manipulation/StyleCLIP/509797-StyleCLIP.jpg",
+    "origin_image": "origin/guardian/0210/523.jpg",
+    "binary_mask": "manipulation/StyleCLIP-mask/509797-StyleCLIP-mask.jpg"
+  },
+  {
+    "id": 1568072,
+    "fake_cls": "face_swap",
+    "text": "Fishermen often have to get into the water and tigers are strong swimmers",
+    "origin_text": "Fishermen often have to get into the water and tigers are strong swimmers",
+    "topic": "arts_culture",
+    "fake_image_box": [
+      371,
+      159,
+      411,
+      213
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        371,
+        159,
+        411,
+        213
+      ],
+      [
+        298,
+        66,
+        331,
+        109
+      ],
+      [
+        179,
+        62,
+        209,
+        99
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "test",
+    "_curated_tag": "grid_FS_infoswap",
+    "image": "manipulation/infoswap/1568072-082834-infoswap.jpg",
+    "origin_image": "origin/bbc/0303/099.jpg",
+    "binary_mask": "manipulation/infoswap-mask/1568072-082834-infoswap-mask.jpg"
+  },
+  {
+    "id": 1580604,
+    "fake_cls": "face_swap",
+    "text": "Nude pictures of Jennifer Lawrence were published on several websites",
+    "origin_text": "Nude pictures of Jennifer Lawrence were published on several websites",
+    "topic": "arts_culture",
+    "fake_image_box": [
+      219,
+      67,
+      323,
+      213
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        219,
+        67,
+        323,
+        213
+      ],
+      [
+        326,
+        193,
+        395,
+        309
+      ],
+      [
+        411,
+        172,
+        489,
+        275
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "train",
+    "_curated_tag": "grid_FS_infoswap",
+    "image": "manipulation/infoswap/1580604-171051-infoswap.jpg",
+    "origin_image": "origin/bbc/0340/139.jpg",
+    "binary_mask": "manipulation/infoswap-mask/1580604-171051-infoswap-mask.jpg"
+  },
+  {
+    "id": 463388,
+    "fake_cls": "face_swap",
+    "text": "Jamaica Inn prompted complaints about inaudible dialogue",
+    "origin_text": "Jamaica Inn prompted complaints about inaudible dialogue",
+    "topic": "media",
+    "fake_image_box": [
+      88,
+      33,
+      136,
+      102
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        88,
+        33,
+        136,
+        102
+      ],
+      [
+        199,
+        45,
+        246,
+        111
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "train",
+    "_curated_tag": "grid_FS_simswap",
+    "image": "manipulation/simswap/463388-170915-simswap.jpg",
+    "origin_image": "origin/guardian/0824/861.jpg",
+    "binary_mask": "manipulation/simswap-mask/463388-170915-simswap-mask.jpg"
+  },
+  {
+    "id": 1596471,
+    "fake_cls": "face_swap",
+    "text": "The Houthi rebels have been closing in on key buildings in Sanaa",
+    "origin_text": "The Houthi rebels have been closing in on key buildings in Sanaa",
+    "topic": "politics_elections",
+    "fake_image_box": [
+      35,
+      112,
+      86,
+      176
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        207,
+        95,
+        259,
+        160
+      ],
+      [
+        35,
+        112,
+        86,
+        176
+      ],
+      [
+        13,
+        17,
+        64,
+        74
+      ]
+    ],
+    "AM": false,
+    "AM_mask_bbox": [],
+    "_split": "train",
+    "_curated_tag": "grid_FS_simswap",
+    "image": "manipulation/simswap/1596471-026256-simswap.jpg",
+    "origin_image": "origin/bbc/0361/513.jpg",
+    "binary_mask": "manipulation/simswap-mask/1596471-026256-simswap-mask.jpg"
+  },
+  {
+    "id": 648151,
+    "fake_cls": "FAM&face_attribute",
+    "text": "Wearing well Nino Castelnuovo and Catherine Deneuve in The Umbrellas of Cherbourg",
+    "origin_text": "Wearing well Nino Castelnuovo and Catherine Deneuve in The Umbrellas of Cherbourg",
+    "topic": "film",
+    "fake_image_box": [
+      138,
+      29,
+      193,
+      119
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        138,
+        29,
+        193,
+        119
+      ],
+      [
+        246,
+        51,
+        298,
+        125
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      246,
+      51,
+      298,
+      125
+    ],
+    "_split": "test",
+    "_curated_tag": "grid_FAM_HFGI",
+    "image": "manipulation/FaceAdapter/HFGI/648151-HFGI.jpg",
+    "origin_image": "origin/guardian/0364/139.jpg",
+    "binary_mask": "manipulation/HFGI-mask/648151-HFGI-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/HFGI-mask/648151-HFGI-AM-mask.jpg"
+  },
+  {
+    "id": 1265073,
+    "fake_cls": "FAM&face_attribute",
+    "text": "Australia s Minister for the Environment Greg Hunt and Prime Minister Tony Abbott declare the repeal of the Carbon Tax Photo by Gary RamageNewspixREX",
+    "origin_text": "Australia s Minister for the Environment Greg Hunt and Prime Minister Tony Abbott declare the repeal of the Carbon Tax Photo by Gary RamageNewspixREX",
+    "topic": "environment",
+    "fake_image_box": [
+      249,
+      51,
+      299,
+      119
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        249,
+        51,
+        299,
+        119
+      ],
+      [
+        49,
+        91,
+        94,
+        152
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      49,
+      91,
+      94,
+      152
+    ],
+    "_split": "test",
+    "_curated_tag": "grid_FAM_HFGI",
+    "image": "manipulation/FaceAdapter/HFGI/1265073-HFGI.jpg",
+    "origin_image": "origin/guardian/0075/556.jpg",
+    "binary_mask": "manipulation/HFGI-mask/1265073-HFGI-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/HFGI-mask/1265073-HFGI-AM-mask.jpg"
+  },
+  {
+    "id": 1599154,
+    "fake_cls": "FAM&face_swap&text_attribute",
+    "text": "The SharifModi meeting was a warning that the two countries are struggling to resume dialogue",
+    "origin_text": "The SharifModi meeting was a clear signal that the two countries are willing to resume dialogue",
+    "topic": "international_relations",
+    "fake_image_box": [
+      105,
+      24,
+      186,
+      127
+    ],
+    "fake_text_pos": [
+      5,
+      11
+    ],
+    "mtcnn_boxes": [
+      [
+        105,
+        24,
+        186,
+        127
+      ],
+      [
+        409,
+        30,
+        489,
+        129
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      409,
+      30,
+      489,
+      129
+    ],
+    "_split": "train",
+    "_curated_tag": "grid_FAM_infoswap",
+    "image": "manipulation/FaceAdapter/infoswap/1599154-021881-infoswap.jpg",
+    "origin_image": "origin/bbc/0362/222.jpg",
+    "binary_mask": "manipulation/infoswap-mask/1599154-021881-infoswap-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/infoswap-mask/1599154-021881-infoswap-AM-mask.jpg"
+  },
+  {
+    "id": 1541620,
+    "fake_cls": "FAM&face_swap",
+    "text": "Cosby was awarded the Presidential Medal of Freedom by George W Bush in 2002",
+    "origin_text": "Cosby was awarded the Presidential Medal of Freedom by George W Bush in 2002",
+    "topic": "arts_culture",
+    "fake_image_box": [
+      401,
+      63,
+      503,
+      207
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        136,
+        30,
+        247,
+        181
+      ],
+      [
+        401,
+        63,
+        503,
+        207
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      136,
+      30,
+      247,
+      181
+    ],
+    "_split": "train",
+    "_curated_tag": "grid_FAM_infoswap",
+    "image": "manipulation/FaceAdapter/infoswap/1541620-133376-infoswap.jpg",
+    "origin_image": "origin/bbc/0245/255.jpg",
+    "binary_mask": "manipulation/infoswap-mask/1541620-133376-infoswap-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/infoswap-mask/1541620-133376-infoswap-AM-mask.jpg"
+  },
+  {
+    "id": 1668403,
+    "fake_cls": "FAM&face_swap",
+    "text": "Charlotte Thompson left and Olivia Bazlinton were killed on their way to catch a train",
+    "origin_text": "Charlotte Thompson left and Olivia Bazlinton were killed on their way to catch a train",
+    "topic": "arts_culture",
+    "fake_image_box": [
+      232,
+      43,
+      368,
+      236
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        58,
+        47,
+        200,
+        241
+      ],
+      [
+        232,
+        43,
+        368,
+        236
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      58,
+      47,
+      200,
+      241
+    ],
+    "_split": "val",
+    "_curated_tag": "grid_FAM_simswap",
+    "image": "manipulation/FaceAdapter/simswap/1668403-137316-simswap.jpg",
+    "origin_image": "origin/bbc/0482/177.jpg",
+    "binary_mask": "manipulation/simswap-mask/1668403-137316-simswap-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/simswap-mask/1668403-137316-simswap-AM-mask.jpg"
+  },
+  {
+    "id": 1498054,
+    "fake_cls": "FAM&face_swap&text_swap",
+    "text": "Ed Balls on the Andrew Marr Show after his announcement of Labour s proposal to restore the 50p top tax rate Photo Jeff OversBBC Getty Images",
+    "origin_text": "Andrew and Hannah MacPherson also died in the crash amid the winter storm of January 2005",
+    "topic": "disaster_accident",
+    "fake_image_box": [
+      91,
+      67,
+      246,
+      266
+    ],
+    "fake_text_pos": [
+      0,
+      1,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "mtcnn_boxes": [
+      [
+        91,
+        67,
+        246,
+        266
+      ],
+      [
+        392,
+        100,
+        533,
+        303
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      392,
+      100,
+      533,
+      303
+    ],
+    "_split": "train",
+    "_curated_tag": "grid_FAM_simswap",
+    "image": "manipulation/FaceAdapter/simswap/1498054-005894-simswap.jpg",
+    "origin_image": "origin/bbc/0115/686.jpg",
+    "binary_mask": "manipulation/simswap-mask/1498054-005894-simswap-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/simswap-mask/1498054-005894-simswap-AM-mask.jpg"
+  },
+  {
+    "id": 1121335,
+    "fake_cls": "FAM&face_attribute",
+    "text": "Massimo Cellino can now complete his takeover of Leeds United after being given the green light by the Football League",
+    "origin_text": "Massimo Cellino can now complete his takeover of Leeds United after being given the green light by the Football League",
+    "topic": "football",
+    "fake_image_box": [
+      120,
+      18,
+      172,
+      91
+    ],
+    "fake_text_pos": [],
+    "mtcnn_boxes": [
+      [
+        120,
+        18,
+        172,
+        91
+      ],
+      [
+        228,
+        23,
+        274,
+        93
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      228,
+      23,
+      274,
+      93
+    ],
+    "_split": "train",
+    "_curated_tag": "grid_FAM_StyleCLIP",
+    "image": "manipulation/FaceAdapter/StyleCLIP/1121335-StyleCLIP.jpg",
+    "origin_image": "origin/guardian/0745/862.jpg",
+    "binary_mask": "manipulation/StyleCLIP-mask/1121335-StyleCLIP-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/StyleCLIP-mask/1121335-StyleCLIP-AM-mask.jpg"
+  },
+  {
+    "id": 623768,
+    "fake_cls": "FAM&face_attribute&text_swap",
+    "text": "A review of the extradition agreement between the UK and US has been announced by home secretary Theresa May",
+    "origin_text": "Theresa May and Michael Gove have tried to put on a united front by saying they are working together",
+    "topic": "politics",
+    "fake_image_box": [
+      264,
+      59,
+      377,
+      207
+    ],
+    "fake_text_pos": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13
+    ],
+    "mtcnn_boxes": [
+      [
+        264,
+        59,
+        377,
+        207
+      ],
+      [
+        45,
+        55,
+        149,
+        190
+      ]
+    ],
+    "AM": true,
+    "AM_mask_bbox": [
+      45,
+      55,
+      149,
+      190
+    ],
+    "_split": "train",
+    "_curated_tag": "grid_FAM_StyleCLIP",
+    "image": "manipulation/FaceAdapter/StyleCLIP/623768-StyleCLIP.jpg",
+    "origin_image": "origin/guardian/0345/461.jpg",
+    "binary_mask": "manipulation/StyleCLIP-mask/623768-StyleCLIP-mask.jpg",
+    "AM_binary_mask": "manipulation/FaceAdapter/StyleCLIP-mask/623768-StyleCLIP-AM-mask.jpg"
+  }
+]
