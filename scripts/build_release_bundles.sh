@@ -30,34 +30,23 @@ cd "$SRC"
 # 1. metadata — small (~200 MB), gzipped
 # ------------------------------------------------------------------
 echo "[1/5] metadata -> dgm4-complex-metadata.tar.gz"
-tar czf "$OUT/dgm4-complex-metadata.tar.gz" \
-    metadata/advanced_train_AM.json \
-    metadata/advanced_val_AM.json \
-    metadata/advanced_test_AM.json \
-    metadata/advanced_train_v3.json \
-    metadata/advanced_val_v3.json \
-    metadata/advanced_test_v3.json \
-    metadata/advanced_train_FAM_pure.json \
-    metadata/advanced_val_FAM_pure.json \
-    metadata/advanced_test_FAM_pure.json \
-    metadata/advanced_train_FAM_any.json \
-    metadata/advanced_val_FAM_any.json \
-    metadata/advanced_test_FAM_any.json \
-    metadata/advanced_train_TAM_pure.json \
-    metadata/advanced_val_TAM_pure.json \
-    metadata/advanced_test_TAM_pure.json \
-    metadata/advanced_train_TAM_any.json \
-    metadata/advanced_val_TAM_any.json \
-    metadata/advanced_test_TAM_any.json \
-    metadata/advanced_train_NT_pure.json \
-    metadata/advanced_val_NT_pure.json \
-    metadata/advanced_test_NT_pure.json \
-    metadata/advanced_train_NT_any.json \
-    metadata/advanced_val_NT_any.json \
-    metadata/advanced_test_NT_any.json \
-    metadata/advanced_train_CTRL.json \
-    metadata/advanced_val_CTRL.json \
-    metadata/advanced_test_CTRL.json
+# Only the 3 main splits are included in the public release.
+# Files are pre-processed to:
+#   - rename: advanced_{split}_AM.json -> {split}.json
+#   - strip legacy 'DGM4_extended/' path prefix from all path fields
+# See /tmp/rewrite_metadata.py for the rewriting script.
+REWRITE_DIR="/tmp/dgm4-complex-metadata-rewrite"
+if [[ -d "$REWRITE_DIR/metadata" ]]; then
+    tar czf "$OUT/dgm4-complex-metadata.tar.gz" -C "$REWRITE_DIR" \
+        metadata/train.json metadata/val.json metadata/test.json
+else
+    echo "  [!] rewritten metadata not found at $REWRITE_DIR"
+    echo "      run rewrite_metadata.py first, or fall back to legacy names."
+    tar czf "$OUT/dgm4-complex-metadata.tar.gz" \
+        metadata/advanced_train_AM.json \
+        metadata/advanced_val_AM.json \
+        metadata/advanced_test_AM.json
+fi
 
 # ------------------------------------------------------------------
 # 2. FAM images (~5–7 GB) — store-only tar (already compressed jpgs)

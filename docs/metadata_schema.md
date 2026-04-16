@@ -1,4 +1,4 @@
-# Metadata schema — `advanced_{train,val,test}_AM.json`
+# Metadata schema — `{train,val,test}.json`
 
 Each metadata file is a JSON array. One entry = one sample in the
 DGM4-Complex benchmark. Fields follow the structure of the original
@@ -27,9 +27,9 @@ augmentations.
 | `AM_binary_mask` | str\|null | Path to the SAM2 binary mask of the FAM region, or `null`. |
 | `text_aug_cls` | str\|null | One of `"TAM"`, `"NT"`, `"NT_CTRL"`, or `null`. Indicates which text augmentation (if any) was applied. |
 
-All path fields are stored with the legacy prefix `DGM4_extended/...`.
-Resolve them by prepending your dataset root (see
-`docs/full_dataset_access.md`).
+All path fields are relative to the dataset root directory (e.g.
+`manipulation/FaceAdapter/HFGI/...`). Resolve them by prepending
+your local dataset root — see `docs/full_dataset_access.md`.
 
 ## `fake_cls` grammar
 
@@ -78,21 +78,9 @@ existing entries. Reviewers already familiar with DGM4 can diff:
 ## File listing
 
 ```
-advanced_train_AM.json      189,339 samples
-advanced_val_AM.json         26,519 samples
-advanced_test_AM.json        61,073 samples
-                            ─────────
-                            276,931 total  (matches paper Table 3)
-```
-
-Evaluation subsets used in the paper's ablations are also provided:
-
-```
-advanced_{train,val,test}_FAM_pure.json   FAM-only subsets
-advanced_{train,val,test}_FAM_any.json    samples containing FAM
-advanced_{train,val,test}_TAM_pure.json
-advanced_{train,val,test}_TAM_any.json
-advanced_{train,val,test}_NT_pure.json
-advanced_{train,val,test}_NT_any.json
-advanced_{train,val,test}_CTRL.json       NT_CTRL control split
+train.json      189,339 samples
+val.json         26,519 samples
+test.json        61,073 samples
+               ─────────
+               276,931 total  (matches paper Table 3)
 ```

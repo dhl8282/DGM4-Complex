@@ -20,6 +20,9 @@ from collections import Counter
 from typing import Any
 
 SPLITS = ("train", "val", "test")
+# Metadata filenames: try clean names first (train.json), fall back to
+# legacy (advanced_{split}_AM.json) for backward compatibility.
+FILENAME_PATTERNS = ("{split}.json", "advanced_{split}_AM.json")
 
 # Paper Table 3 (full benchmark, after dedup)
 PAPER_TOTAL = 276_931
@@ -48,9 +51,16 @@ PAPER_TABLE3 = {
 def load_splits(meta_dir: str) -> list[dict[str, Any]]:
     items: list[dict[str, Any]] = []
     for split in SPLITS:
-        path = os.path.join(meta_dir, f"advanced_{split}_AM.json")
-        if not os.path.exists(path):
-            print(f"  [!] missing: {path}", file=sys.stderr)
+        path = None
+        for pattern in FILENAME_PATTERNS:
+            candidate = os.path.join(meta_dir, pattern.format(split=split))
+            if os.path.exists(candidate):
+                path = candidate
+                break
+        if path is None:
+            tried = ", ".join(p.format(split=split) for p in FILENAME_PATTERNS)
+            print(f"  [!] missing {split} split (tried: {tried})",
+                  file=sys.stderr)
             sys.exit(1)
         with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
