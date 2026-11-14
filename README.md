@@ -63,8 +63,7 @@ All checks passed.
   author  = {Lee, Donghun and Choi, Jang-Ho and Kim, Seongho and
              Yi, Sungwon and Kwak, Nojun},
   journal = {IEEE Access},
-  year    = {2026},
-  note    = {Under review}
+  year    = {2026}
 }
 
 @inproceedings{shao2023dgm4,
